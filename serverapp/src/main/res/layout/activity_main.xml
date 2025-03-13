@@ -12,10 +12,12 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Server"
         android:textStyle="bold"
+        android:background="#DFDBDB"
+        android:textAlignment="center"
         android:layout_gravity="center"
         android:textSize="30dp" />
 
@@ -31,7 +33,9 @@
         android:id="@+id/btnStartServer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Server" />
+        android:text="Start Server"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -54,6 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
         android:text="Send Message" />
 
     <TextView
